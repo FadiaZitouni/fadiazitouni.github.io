@@ -1,0 +1,47 @@
+{
+  "title": "Technische Fähigkeiten",
+  "skills": [
+    { "skill": "Languages & Frameworks",
+      "details": [
+      "PHP (Native, Symfony, Laravel, CakePHP)",
+      "JavaScript (React, Vue.js, Node.js, Angular)",
+      "Python (Django)",
+      "Java",
+      "C#",
+      "Frontend (HTML, CSS, Sass)"
+    ]},
+    {"skill": "Databases",
+    "details": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB"
+    ]},
+    {"skill": "APIs & Integrations",
+    "details": [
+      "APIs REST",
+      "APIs GraphQL",
+      "Swagger / OpenAPI",
+      "Intégration PSP & solutions de paiement"
+    ]},
+    {"skill": "Version Control",
+    "details": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ]},
+    {"skill": "DevOps & Infrastructure",
+    "details": [
+      "Docker",
+      "Docker Compose",
+      "Pipelines CI/CD",
+      "Apache", "Certbot"
+    ]},
+    {"skill": "Tools & IDEs",
+    "details": [
+      "PhpStorm",
+      "VS Code",
+      "Jira",
+      "Confluence"
+    ]}
+  ]
+}
