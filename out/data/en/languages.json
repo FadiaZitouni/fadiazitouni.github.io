@@ -1,8 +1,0 @@
-{ "title": "language",
-  "langs": [
-      { "name": "Araic", "level": "Native" },
-      { "name": "French", "level": "Fluent" },
-      { "name": "English", "level": "Professional working proficiency" },
-      { "name": "German", "level": "Beginner (A1 – currently enrolled)" }
-    ]
-}
