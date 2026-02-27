@@ -1,0 +1,9 @@
+{
+  "title": "Sprachen",
+  "langs": [
+      { "name": "Arabisch", "level": "Muttersprache" },
+  { "name": "Französisch", "level": "Fließend" },
+  { "name": "Englisch", "level": "Berufliche Sprachkenntnisse" },
+  { "name": "Deutsch", "level": "Anfänger (A2 – derzeit in Ausbildung)" }
+    ]
+}
