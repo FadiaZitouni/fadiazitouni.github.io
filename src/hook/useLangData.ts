@@ -23,7 +23,8 @@ export function useLangData<T = any>(path: string) {
         setError(err.message)
       } finally {
         setLoading(false)
-      }
+      }      
+        console.error(`${basePath}/data/${lang}/${path}.json`)
     }
 
     fetchData()
