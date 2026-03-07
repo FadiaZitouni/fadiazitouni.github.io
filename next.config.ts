@@ -5,8 +5,8 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",          // obligatoire pour GitHub Pages
-  basePath:  isProd ? "/out" : "",
-  assetPrefix: isProd ? "/out/" : "",
+  basePath:  isProd ? "/fadiazitouni.github.io" : "",
+  assetPrefix: isProd ? "/fadiazitouni.github.io/" : "",
   images: {
     unoptimized: true,       // obligatoire pour GitHub Pages
   },
