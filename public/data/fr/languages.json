@@ -1,9 +1,0 @@
-{
-  "title": "langue",
-  "langs": [
-    { "name": "Arabe", "level": "Langue maternelle" },
-    { "name": "Français", "level": "Courant" },
-    { "name": "Anglais", "level": "Niveau professionnel" },
-    { "name": "Allemand", "level": "Débutant (A2 – actuellement en formation)" }
-    ]
-}
