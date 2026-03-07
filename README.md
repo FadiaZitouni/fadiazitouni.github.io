@@ -1,42 +1,100 @@
-# Typefolio - NextJs Template
+# Typefolio – Next.js Portfolio
 
-#### Preview
+A modern **developer portfolio template built with Next.js**.
+This project is deployed using **GitHub Pages with static export**.
 
- - [Demo](https://themewagon.github.io/Typefolio/)
+## 🌐 Live Demo
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/Typefolio/)
+https://fadiazitouni.github.io
 
-## Getting Started
+---
 
-1. Clone Repository
+# 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/FadiaZitouni/fadiazitouni.github.io.git
+cd fadiazitouni.github.io
 ```
-git clone https://github.com/themewagon/Typefolio.git
+
+Install dependencies:
+
+```bash
+npm install
 ```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
+
+---
+
+# 🚀 Run the Project (Development)
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-## Author 
+Then open:
+
 ```
-Design and code is completely written by Getnextjstemplates and Wrappixel team. 
+http://localhost:3000
 ```
 
-## License
+---
 
- - Design and Code is Copyright &copy; [Getnextjstemplates](https://getnextjstemplates.com)
- - Licensed cover under [MIT]
- - Distributed by [ThemeWagon](https://themewagon.com)
+# 🏗 Build the Project
 
+To build the static version of the site:
+
+```bash
+npm run build
+```
+
+This command generates the static files inside the **`out/`** folder.
+
+---
+
+# 📁 Project Structure
+
+```
+src/
+  app/
+  components/
+public/
+  images/
+  data/
+next.config.ts
+```
+
+* **src/** → application source code
+* **public/** → static assets (images, JSON data)
+* **out/** → generated static site for deployment
+
+---
+
+# 🌍 Deployment (GitHub Pages)
+
+The site is deployed automatically on **GitHub Pages**.
+
+URL:
+
+```
+https://fadiazitouni.github.io
+```
+
+Make sure the repository settings enable **GitHub Pages from the main branch**.
+
+---
+
+# 🛠 Technologies Used
+
+* Next.js
+* React
+* TypeScript
+* TailwindCSS
+
+---
+
+# 📄 License
+
+This template is based on **Typefolio** from ThemeWagon.
