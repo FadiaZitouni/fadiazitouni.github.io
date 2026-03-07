@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import { useLang } from "@/context/LangContext"
-import { basePath } from "@/utils/basePath";
 
 export function useLangData<T = any>(path: string) {
   const { lang } = useLang()
@@ -14,7 +13,7 @@ export function useLangData<T = any>(path: string) {
       setError(null)
 
       try {
-        const res = await fetch(`/out/data/${lang}/${path}.json`)
+        const res = await fetch(`/data/${lang}/${path}.json`)
         if (!res.ok) throw new Error(`Failed to fetch ${path}`)
         const json = await res.json()
         setData(json)
@@ -23,8 +22,7 @@ export function useLangData<T = any>(path: string) {
         setError(err.message)
       } finally {
         setLoading(false)
-      }      
-        console.error(`${basePath}/data/${lang}/${path}.json`)
+      }
     }
 
     fetchData()
