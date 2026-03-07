@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link";
 import { useLang } from "@/context/LangContext";
 import { useState, useEffect } from "react";
+import { basePath } from "@/utils/basePath";
 
 const HeroSection = () => {
     const { lang } = useLang();
@@ -11,7 +12,7 @@ const HeroSection = () => {
         useEffect(() => {
             const fetchData = async () => {
             try {
-                const res = await fetch(`/data/${lang}/detail.json`);
+                const res = await fetch(`${basePath}/data/${lang}/detail.json`);
                 if (!res.ok) throw new Error("Failed to fetch aboutMe.json");
                 const json = await res.json();
                 setData(json);

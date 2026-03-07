@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,       // obligatoire pour GitHub Pages
   },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/out",
+  }
 };
 
 export default nextConfig;
