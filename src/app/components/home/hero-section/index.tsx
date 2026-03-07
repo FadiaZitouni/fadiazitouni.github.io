@@ -12,7 +12,7 @@ const HeroSection = () => {
         useEffect(() => {
             const fetchData = async () => {
             try {
-                const res = await fetch(`${basePath}/data/${lang}/detail.json`);
+                const res = await fetch(`/out/data/${lang}/detail.json`);
                 if (!res.ok) throw new Error("Failed to fetch aboutMe.json");
                 const json = await res.json();
                 setData(json);

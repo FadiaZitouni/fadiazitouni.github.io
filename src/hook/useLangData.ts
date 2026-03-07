@@ -14,7 +14,7 @@ export function useLangData<T = any>(path: string) {
       setError(null)
 
       try {
-        const res = await fetch(`${basePath}/data/${lang}/${path}.json`)
+        const res = await fetch(`/out/data/${lang}/${path}.json`)
         if (!res.ok) throw new Error(`Failed to fetch ${path}`)
         const json = await res.json()
         setData(json)
